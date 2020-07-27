@@ -1,0 +1,13 @@
+/* 
+  Content_Localizable.strings
+  LatestNews
+
+  Created by avanees on 23/07/2020.
+  Copyright © 2020 ave. All rights reserved.
+*/
+"newslist.title" = "Laatste nieuws";
+"newslist.emptyresults" = "Er zijn geen resultaten gevonden.";
+"newsdetail.originalstory.button" = "Ga naar artikel";
+"error.title" = "Er ging iets mis";
+"error.message" = "Probeer het later opnieuw.";
+"ok" = "OK";

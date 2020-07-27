@@ -1,0 +1,62 @@
+disabled_rules: 
+  - trailing_whitespace
+  - identifier_name
+  - sorted_imports
+
+opt_in_rules: 
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - contains_over_first_not_nil
+  - empty_count
+  - empty_string
+  - fatal_error_message
+  - first_where
+  # - force_unwrapping
+  - opening_brace
+  - operator_usage_whitespace
+  - override_in_extension
+  - private_action
+  # - private_outlet
+  - redundant_nil_coalescing
+  - redundant_string_enum_value
+  - return_arrow_whitespace
+  - sorted_first_last
+  - statement_position
+  - strict_fileprivate
+  - unneeded_parentheses_in_closure_argument
+  - untyped_error_in_catch
+  - unused_enumerated
+  - unused_optional_binding
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_closing_braces
+  - yoda_condition
+#  - cyclomatic_complexity 
+
+analyzer_rules: 
+  - unused_import
+
+included: 
+  - LatestNews
+
+excluded:
+  - LatestNewsTests
+
+force_cast: warning
+force_try: 
+  severity: warning
+
+nesting:
+  type_level: 
+    warning: 4
+  statement_level:
+    warning: 10
+
+large_tuple: 
+  warning: 3
+  error: 4
+
+cyclomatic_complexity:
+  warning: 3 # three nested ifs are acceptable
+  error: 5   # six nested ifs shows warning, 6 causes compile error
+  ignores_case_statements: true

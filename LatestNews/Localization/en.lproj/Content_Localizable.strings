@@ -1,0 +1,13 @@
+/* 
+  Content_Localizable.strings
+  LatestNews
+
+  Created by avanees on 23/07/2020.
+  Copyright © 2020 ave. All rights reserved.
+*/
+"newslist.title" = "Latest news";
+"newslist.emptyresults" = "No results found";
+"newsdetail.originalstory.button" = "Go to article";
+"error.title" = "Something went wrong";
+"error.message" = "Please try again later.";
+"ok" = "OK";
